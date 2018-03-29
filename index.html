@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <title>design-directory</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#flip1").click(function(){
+            $("#panel1").slideToggle();
+        });
+    });
+    $(document).ready(function(){
+        $("#flip2").click(function(){
+            $("#panel2").slideToggle();
+        });
+    });
+    $(document).ready(function(){
+        $("#flip3").click(function(){
+            $("#panel3").slideToggle();
+        });
+    });
+    </script>
+
+  </head>
+
+<body>
+  <div class="container body">
+<!--Header -->
+    <header>
+      <div class="container header">
+        <div class="logo"></div>
+        <input type="search" class="search-input" />
+        <ul class="menu-left">
+          <li><a href="#">Everybody</a></li>
+          <li><a href="#">Designer</a></li>
+          <li><a href="#">Studios</a></li>
+          <li><a href="#">Verified</a></li>
+        </ul>
+        <div class="menu-right">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Suggest</a></li>
+            <li><a href="#">Manage Profile</a></li>
+          </ul>
+          <div class="tweet"><a href="#" class="fa fa-twitter">&nbsp; Tweet</a></div>
+        </div>
+      </div>
+    </header>
+
+<!-- Content -->
+    <div class="intro">
+      <h1>THE DESIGN DIRECTORY</h1>
+      <p>A growing directory<br />
+        of kickass designers<br />
+        and studios.
+      </p>
+    </div>
+
+    <table class="table">
+      <tr id="flip1">
+        <td class="column1"><div class="photo"></div></td>
+        <td class="column2"><p class="name">Claudio Gulieri</p>
+                                <p class="location">New York, NY</p></td>
+        <td class="column3">iOS, Product Design, Illustration,<br />Web Design, Branding</td>
+        <td class="column4"><a href="#">animade.tv&rarr;</a></td>
+      </tr>
+      <tr id="panel1">
+        <td class="column1"></td>
+        <td class="column2">
+          We're a New York based animation studio.<br />
+          We believe in the power of character to<br />
+          bring a story to life.</td>
+        <td class="column3">
+          <ul>
+            <li class="image"><a href="#"></a></li>
+            <li class="image"><a href="#"></a></li>
+            <li class="image"><a href="#"></a></li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="flip2">
+        <td class="column1"><div class="photo"></div></td>
+        <td class="column2"><p class="name">Ryan Putnam</p>
+                            <p class="location">Madrid, Spain</p></td>
+        <td class="column3">Bradnimg, Illustration, Icons</td>
+        <td class="column4"></td>
+      </tr>
+      <tr id="panel2">
+        <td class="column1"></td>
+        <td class="column2">
+          We're a Madrid based animation studio.<br />
+          We believe in the power of character to<br />
+          bring a story to life.</td>
+        <td class="column3">
+          <ul>
+            <li class="image"><a href="#"></a></li>
+            <li class="image"><a href="#"></a></li>
+            <li class="image"><a href="#"></a></li>
+          </ul>
+        </td>
+      </tr>
+      <tr id="flip3">
+        <td class="column1"><div class="photo"></div></td>
+        <td class="column2"><p class="name">Animade</p>
+                            <p class="location">London</p></td>
+        <td class="column3">Motion Graphics, Illustration, Branding<br />Art Direction</td>
+        <td class="column4"></td>
+      </tr>
+      <tr id="panel3">
+        <td class="column1"></td>
+        <td class="column2">
+          We're a London based animation studio.<br />
+          We believe in the power of character to<br />
+          bring a story to life.</td>
+        <td class="column3">
+          <ul>
+            <li class="image"><a href="#"></a></li>
+            <li class="image"><a href="#"></a></li>
+            <li class="image"><a href="#"></a></li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+</body>
