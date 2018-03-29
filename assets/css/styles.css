@@ -3,9 +3,9 @@ body {
 }
 .container.body {
   height: 1000px;
-  width: 1040px;
+  width: 93%;
   padding: 40px 0;
-  margin: 0 auto;
+  margin: 0 50px;
 }
 
 .container.header {
@@ -131,21 +131,21 @@ body {
 
 .column1 {
   display: inline;
-  width: 60px;
+  width: 6%;
 }
 .column2 {
-  width: 300px;
+  width: 35%;
 }
 
 .column3 {
-  width: 580px;
+  width: 54%;
   color: grey;
   font-size: 13px;
   line-height: 1.2;
 }
 
 .column4 {
-  width: 80px;
+  width: 30%;
 }
 
 .column4 > a {
